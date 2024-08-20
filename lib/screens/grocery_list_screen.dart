@@ -18,7 +18,7 @@ class _GroceryListScreenState extends State<GroceryListScreen> {
     Widget screenContent;
     if (items.isEmpty) {
       screenContent = const Center(
-        child: Text('No items added yet try adding one'),
+        child: Text('No items yet homie try add some...'),
       );
     } else {
       screenContent = ListView.builder(
